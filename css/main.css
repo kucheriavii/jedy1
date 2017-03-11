@@ -87,3 +87,15 @@ header a{
 	line-height: 26px;
 }
 /*42:19 ---https://youtu.be/TavRhEulwQk---*/
+.top_line .logo, .top_line .logo:hover{
+	border-bottom: none;
+}
+.top_line .logo_wrap{
+	position: relative;
+	width: 240px;/*щоб вирівняти посередині задамо врапу розмір точно по розмірі логотипа і ...*/
+	margin: auto;/*вирівняємо сам врапер за допомогою маргін авто*/
+}
+.top_line .logo{
+	position: absolute;
+	margin-top: -15px;
+}/*48:36:39*/
