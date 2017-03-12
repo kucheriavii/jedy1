@@ -42,10 +42,10 @@ body {
 	position: relative;
 }
 header{
-	background-image: url(../img/top_bg.jpg);
+	background-image: url("../img/top_bg.jpg");
+	height: 644px;
 	background-repeat: repeat-x;
 	background-position: top center;
-	min-height: 644px;
 	position: relative;
 	font-family: "BebasBold";
 }
@@ -54,48 +54,93 @@ header a{
 }
 .top_line{
 	min-height: 97px;
-	-webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
-	box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
-	position: absolute;
-	top: 0;
+	-webkit-box-shadow: rgba(255,255,255,.6) 0 0 0 1px;
+	box-shadow: rgba(255,255,255,.6) 0 0 0 1px;
 	width: 100%;
-	background-color: rgba(0,0,0,.60);
+	background: rgba(0,0,0,.66);
 	padding: 22px 0;
 }
 .top_line a{
-	font-size: 21px;
+	font-size: 22px;
 	border-bottom: #fff dashed 1px;
 	-webkit-transition: all .25s;
 	-o-transition: all .25s;
 	transition: all .25s;
 }
 .top_line a:hover{
-	border-bottom: transparent 1px dashed;
+	border-bottom: transparent;
 }
 .top_addr{
 	padding-left: 50px;
 	background-image: url("../img/top_map.png");
 	background-repeat: no-repeat;
 	background-position: top left;
+	line-height: 26px;
 }
 .top_addr strong{
 	display: block;
 	color: #d12f22;
 	text-transform: uppercase;
 	font-weight: normal;
-	font-size: 31px;
-	line-height: 26px;
-}
-/*42:19 ---https://youtu.be/TavRhEulwQk---*/
-.top_line .logo, .top_line .logo:hover{
-	border-bottom: none;
-}
-.top_line .logo_wrap{
-	position: relative;
-	width: 240px;/*щоб вирівняти посередині задамо врапу розмір точно по розмірі логотипа і ...*/
-	margin: auto;/*вирівняємо сам врапер за допомогою маргін авто*/
+	font-size: 32px;
 }
 .top_line .logo{
+	border-bottom: none;
 	position: absolute;
-	margin-top: -15px;
-}/*48:36:39*/
+	margin-top: -18px;
+}
+.top_line .logo:hover{
+	border-bottom: none;
+}
+.logo_wrap{
+	position: relative;
+	width: 240px;
+	margin: auto;
+}
+.ta_right{
+	background-image: none;
+	padding-left: 0;
+	text-align: right;
+}
+.ta_right span{
+	color: #fff;
+}
+header h1{
+	text-align: center;
+	color: #fff;
+	margin-top: 68px;
+	font-size: 40px;
+	text-shadow: rgba(0,0,0,.55) 0 3px;
+	font-family: "BebasRegular";
+}
+header .button{
+	display: inline-block;
+	background-color: #D12F22;
+	height: 50px;
+	vertical-align: middle;
+	line-height: 50px;
+	padding: 0 20px;
+	font-size: 20px;
+	border-bottom: 4px solid #AC160A;
+	margin-right: 20px;
+} 
+header .button:hover{
+	background-color: #e64437;
+}
+header .button:active{
+	background-color: #B81609;
+}
+header .st_button{
+    line-height: 18px;
+    padding-top: 7px;
+    text-align: left;
+    padding-left: 62px;
+    background-image: url(../img/camera_icon.png);
+    background-repeat: no-repeat;
+    background-position: 8px 8px;
+}
+.buttons_top{
+	position: absolute;
+	width: 100%;
+	bottom: 32px;
+}
