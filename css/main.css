@@ -43,7 +43,7 @@ body {
 }
 header{
 	background-image: url("../img/top_bg.jpg");
-	height: 644px;
+	height: 642px;
 	background-repeat: repeat-x;
 	background-position: top center;
 	position: relative;
@@ -143,4 +143,71 @@ header .st_button{
 	position: absolute;
 	width: 100%;
 	bottom: 32px;
+}
+.top_mnu{
+	height: 62px;
+	background-color: #242424;
+	-webkit-box-shadow: rgba(255,255,255,.6) 0 0 0 1px;
+	box-shadow: rgba(255,255,255,.6) 0 0 0 1px;
+	font-family: "BebasRegular";
+	text-transform: uppercase;
+}
+.top_mnu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.top_mnu a{
+	color: #fff;
+	font-size: 20px;
+	padding: 0 26px 0 54px;
+	display: block;
+	height: 62px;
+	line-height: 62px;
+	border-left: 1px solid #3b3b3b;
+	background-image: url("../img/top_mnu_iconset.png");
+	background-repeat: no-repeat;
+	background-position: 20px 17px;
+}
+.top_mnu li:first-child a{
+	border-left: none;
+}
+.top_mnu li{
+	float: left;
+}
+.top_mnu li.active,
+.top_mnu li:hover{
+	background-color: #050505;
+}
+.top_mnu li:nth-child(2) a{background-position: 20px -38px;}
+.top_mnu li:nth-child(3) a{background-position: 28px -92px;}
+.top_mnu li:nth-child(4) a{background-position: 20px -154px;}
+.top_mnu li:nth-child(5) a{background-position: 20px -221px;}
+.top_mnu li:nth-child(6) a{background-position: 25px -283px;}
+.waranty{
+	float: right;
+	color:#fff;
+	cursor: default;
+	font-size: 12px;
+	border: 3px solid #fff;
+	border-radius: 3px;
+	padding: 3px 5px;
+	line-height: 18px;
+}
+.w_left{
+	font-family: "BebasBold";
+	font-size: 20px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+.w_left span{
+	font-size: 34px;
+}
+.w_left,.w_right{
+	display: inline-block;
+	vertical-align: top
+}
+/*1:48:28*/
+.w_right{
+	font-family: "RobotoCondensedRegular";
 }
