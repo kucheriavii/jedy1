@@ -113,7 +113,7 @@ header h1{
 	text-shadow: rgba(0,0,0,.55) 0 3px;
 	font-family: "BebasRegular";
 }
-header .button{
+.button{
 	display: inline-block;
 	background-color: #D12F22;
 	height: 50px;
@@ -123,6 +123,8 @@ header .button{
 	font-size: 20px;
 	border-bottom: 4px solid #AC160A;
 	margin-right: 20px;
+	color: #fff;
+	font-family: "BebasRegular";
 } 
 header .button:hover{
 	background-color: #e64437;
@@ -215,7 +217,7 @@ header .st_button{
 }
 .main_cats{
 	background-color: #191919;
-	padding: 20px 0 32px;
+	padding: 20px 0 40px;
 }
 .main_cats h2{
 	text-transform: uppercase;
@@ -354,6 +356,7 @@ body .mc_wrap .mc_item_wrap > ul{
 	list-style-type: none;
 	z-index: 10;
 	display: none;
+	left: 0;
 }
 .mc_item_wrap.active > ul li a{
 	padding: 0 10px;
@@ -369,6 +372,10 @@ body .mc_wrap .mc_item_wrap > ul{
     height: 9px;
     position: absolute;
     width: 18px;
-    margin: 16px -10px;
+    margin: 16px 69px;
     display: none;
+}
+.mc_button_wrap{
+	text-align: center;
+	margin-top: 30px;
 }
