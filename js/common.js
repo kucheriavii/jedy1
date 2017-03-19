@@ -1,7 +1,9 @@
 $(document).ready(function() {
+	$(".mc_item_wrap").after("<div class='mc_item_wrap_af'></div>");
 	$('.mc_toggle').click(function(event) {
-		console.log('Helllo');
-		$(this).parent().parent().children("ul").slideToggle();
+		$("body .mc_wrap .mc_item_wrap > ul").hide();
+		$(this).parent().parent().children("ul").show(0);
+
 	});
 	//Цели для Яндекс.Метрики и Google Analytics
 	$(".count_element").on("click", (function() {

@@ -363,3 +363,12 @@ body .mc_wrap .mc_item_wrap > ul{
 .mc_item_wrap.active > ul li a:hover{
 	text-decoration: underline;
 }
+.mc_item_wrap_af {
+    content: "";
+    background-image: url(../img/arrow.png);
+    height: 9px;
+    position: absolute;
+    width: 18px;
+    margin: 16px -10px;
+    display: none;
+}
