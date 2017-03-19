@@ -340,7 +340,7 @@ section h2{
 	text-align: center;
 }
 .mc_item_wrap.active > ul li{
-	float: left;
+	display: inline-block;
 	font-family: "BebasRegular";
 }
 /*2:56:00* - были доработки*/
@@ -350,8 +350,16 @@ body .mc_wrap .mc_item_wrap > ul{
 	margin-top: 25px;
 	position: absolute;
 	width: 100%;
+	padding: 15px 0;
+	list-style-type: none;
+	z-index: 10;
+	display: none;
 }
 .mc_item_wrap.active > ul li a{
-	padding: 0 20px;
+	padding: 0 10px;
+	text-decoration: none;
 }
 /*2:58:11 - обовязково звідси*/
+.mc_item_wrap.active > ul li a:hover{
+	text-decoration: underline;
+}

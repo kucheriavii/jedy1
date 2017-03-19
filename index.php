@@ -116,8 +116,8 @@
 									<span></span>
 									<h4>Кузовной ремонт</h4>
 								</a>
+								<div class="mc_toggle"></div>
 							</div>
-							<div class="mc_toggle"></div>
 						 		<ul>
 									<li><a href="#">Стапельные работы</a></li>
 									<li><a href="#">Жестяные работы  </a></li>
@@ -139,8 +139,8 @@
 									<span></span>
 									<h4>Кузовной ремонт</h4>
 								</a>
+								<div class="mc_toggle"></div>
 							</div>
-							<div class="mc_toggle"></div>
 						</li>
 
 						<li class="mc_item_wrap">
@@ -149,8 +149,8 @@
 									<span></span>
 									<h4>Кузовной ремонт</h4>
 								</a>
+								<div class="mc_toggle"></div>
 							</div>
-							<div class="mc_toggle"></div>
 						</li>
 
 						<li class="mc_item_wrap">
@@ -159,8 +159,8 @@
 									<span></span>
 									<h4>Кузовной ремонт</h4>
 								</a>
+								<div class="mc_toggle"></div>
 							</div>
-							<div class="mc_toggle"></div>
 						</li>
 
 						<li class="mc_item_wrap">
@@ -169,8 +169,8 @@
 									<span></span>
 									<h4>Кузовной ремонт</h4>
 								</a>
+								<div class="mc_toggle"></div>
 							</div>
-							<div class="mc_toggle"></div>
 						</li>
 
 						<li class="mc_item_wrap">	
@@ -179,8 +179,8 @@
 									<span></span>
 									<h4>Кузовной ремонт</h4>
 								</a>
+								<div class="mc_toggle"></div>
 							</div>
-							<div class="mc_toggle"></div>
 						</li>
 						
 					</ul>
