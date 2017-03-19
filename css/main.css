@@ -219,7 +219,7 @@ header .st_button{
 	background-color: #191919;
 	padding: 20px 0 40px;
 }
-.main_cats h2{
+.main_cats h2, article h2{
 	text-transform: uppercase;
 	color: #c9c9c9;
 	font-family: "BebasBold";
@@ -232,7 +232,7 @@ header .st_button{
 .main_cats h2 span{
 	color: #d12f22;
 }
-section h2{
+section h2, article h2{
 	position: relative;
 }
 .s_black h2::before{
@@ -251,6 +251,27 @@ section h2{
 	height: 20px;
 	width: 50px;
 	background-image: url("../img/header_lines.png");
+	position: absolute;
+	top: 16px;
+	margin-left: 19px;
+	background-position: -50px 0;
+}
+article h2.art_header::before{
+	content: "";
+	position: absolute;
+	height: 20px;
+	width: 50px;
+	background-image: url("../img/header_lines_black.png");
+	position: absolute;
+	top: 16px;
+	margin-left: -68px;
+}
+article h2.art_header::after{
+	content: "";
+	position: absolute;
+	height: 20px;
+	width: 50px;
+	background-image: url("../img/header_lines_black.png");
 	position: absolute;
 	top: 16px;
 	margin-left: 19px;
@@ -378,4 +399,85 @@ body .mc_wrap .mc_item_wrap > ul{
 .mc_button_wrap{
 	text-align: center;
 	margin-top: 30px;
+}
+article.content{
+	background-color: #E9E9E9;
+}
+.art_header{
+	color: #050505;
+	margin-bottom: 10px;
+}
+p.h_descr{
+	max-width: 790px;
+	text-align: center;
+	margin: auto;
+	margin-top: 0;
+	color: #050505;
+	font-family: "RobotoRegular";
+}
+.home_items{
+	background-color: #d6d6d6;
+	padding: 40px 0;
+	margin-top: 40px;
+}
+.hi_item{
+	color: #050505;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 50px;
+}
+.home_items img{
+	max-width: 100%;
+	border-top: #ac160a 8px solid;
+}
+.s_bottom img{
+	display: block;
+	max-width: 100%;
+}
+.s_bottom{
+	padding-top: 32px;
+}
+.sb_header.button_cont{
+	line-height: 50px;
+	text-align: right;
+}
+.sb_header h2{
+	margin: 0;
+	text-transform: uppercase;
+	font-family: "BebasRegular";
+	font-size: 36px;
+}
+.sb_content{
+	margin-top: 30px;
+	font-family: "RobotoRegular";
+}
+.sb_contant img{
+    position: absolute;
+    width: 90%;
+    bottom: 0;
+}
+footer{
+	background: #2a2a2a;
+	color: #fff;
+	padding: 28px 0 35px;
+	font-family: "BebasBold";
+	font-size: 20px;
+}
+footer a{
+	color: #fff;
+}
+footer ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+footer li{
+	float: left;
+}
+footer a{
+	padding: 0 10px;
+	text-decoration: underline;
+}
+footer a:hover{
+	text-decoration: none;
 }

@@ -262,6 +262,121 @@
 			</div>
 		</div>
 	</section>
+	<article class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="art_header">Мы — Профессионалы высочайшего класса</h2>
+					<p class="h_descr">Мы используем самые качественные материалы и работы осуществляются теми, кто являются профессионалами высочайшего класса.</p>
+				</div>
+			</div>
+		</div>
+		<section class="home_items">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="hi_item">
+							<a href="img/_ex1.jpg" class="fancybox"  data-fancybox-group="group">
+								<img src="img/_ex1.jpg" alt="alt" />
+							</a>
+							<p>Нам под силу виртуозное выполнение такого сложного автотехнического процесса, как антикоррозийная обработка автомобиля! Многие владельцы современных машин считают, что коррозия им не страшна, но это не так.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="hi_item">
+							<a href="img/_ex1.jpg" class="fancybox"  data-fancybox-group="group">
+								<img src="img/_ex1.jpg" alt="alt" />
+							</a>
+							<p>Нам под силу виртуозное выполнение такого сложного автотехнического процесса, как антикоррозийная обработка автомобиля! Многие владельцы совремевтотехнического процесса, как антикоррозийная обработка автомобиля! Многие владельцы современных машин считают, что коррозия им не страшна, но это не так.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="hi_item">
+							<a href="img/_ex1.jpg" class="fancybox"  data-fancybox-group="group">
+								<img src="img/_ex1.jpg" alt="alt" />
+							</a>
+							<p>Нам под силу виртуозное выполнение такого сложного автотехнического процесса, как антикоррозийная обработка автомобиля! Многие владельцы современных машин считают, что коррозия им не страшна, но это не так.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="hi_item">
+							<a href="img/_ex1.jpg" class="fancybox"  data-fancybox-group="group">
+								<img src="img/_ex1.jpg" alt="alt" />
+							</a>
+							<p>Нам под силу виртуозное выполнение такого сложного автотехнического процесса, как антикоррозийная обработка автомобиля! Многие владельцы современных машин считают, что коррозия им не страшна, но это не так.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="hi_item">
+							<a href="img/_ex1.jpg" class="fancybox"  data-fancybox-group="group">
+								<img src="img/_ex1.jpg" alt="alt" />
+							</a>
+							<p>Нам под силу виртуозное выполнение такого сложного автотехнического процесса, как антикоррозийная обработка автомобиля! Многие владельцы современных машин считают, что коррозия им не страшна, но это не так.</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="hi_item">
+							<a href="img/_ex1.jpg" class="fancybox"  data-fancybox-group="group">
+								<img src="img/_ex1.jpg" alt="alt" />
+							</a>
+							<p>Нам под силу виртуозное выполнение такого сложного автотехнического процесса, как антикоррозийная обработка автомобиля! Многие владельцы современных машин считают, что коррозия им не страшна, но это не так.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</article>
+	<section class="s_bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="sb_header">
+						<h2>Все виды работ по ремонту авто</h2>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="sb_header button_cont">
+						<a href="#callback" class="button sb_but fancybox">Оставить заявку</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="sb_content clearfix">
+					<div class="col-md-4">
+					<img src="img/garage.png" alt="">
+				</div>
+				<div class="col-md-8">
+					<p>При выполнении всех работ, будь то локальная покраска автомобиля или полировка кузова, полная покраска автомобиля или ремонт акпп,  работники технического центра «Автохолл» ставят на первое место тандем «Качество и Скорость». Каждый из нас – от директора центра до рядового работника – является автолюбителем, и мы четко представляем себе, что для человека, привыкшего с помощью автомобиля ежедневно перемещаться по городу из пункта «А» в пункт «Б», наличие идеально функционирующего транспортного средства – вопрос № 1.</p>
+					<p>Желая нашим клиентам удачного пути, мы напоминаем им, что компания «Автохолл» не просто предлагает лучший кузовной ремонт Москвы, но и является своеобразным маяком для всех москвичей, который освещает путь водителей на самых сложных дорогах и гарантирует надежность, безопасность и комфорт!</p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					&copy;avtohall.com 2013
+				</div>
+				<div class="col-md-7">
+					<nav class="bot_mnu">
+						<ul>
+							<li><a href="#">О нас</a></li>
+							<li><a href="#">Цена</a></li>
+							<li><a href="#">Полезная информация</a></li>
+							<li><a href="#">Форум</a></li>
+							<li><a href="#">Карта сайта</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-md-2">
+					<img src="img/live.png" alt="livereload">
+				</div>
+			</div>
+		</div>
+	</footer>
 	<div class="hidden"></div>
 	<!-- Mandatory for Responsive Bootstrap Toolkit to operate -->
 	<div class="device-xs visible-xs"></div>
